@@ -1,0 +1,4 @@
+requests
+requests
+fastapi[standard]
+pillow
