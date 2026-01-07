@@ -72,7 +72,7 @@ def download_and_mask_arcgis(poly_coords, filename="parking_final.tif"):
     min_lat, max_lat = min(lats), max(lats)
 
     # Set a target width; height is calculated by ArcGIS
-    target_width = 2000 
+    target_width = 1280 
     aspect_ratio = (max_lat - min_lat) / (max_lon - min_lon)
     target_height = int(target_width * aspect_ratio)
     
